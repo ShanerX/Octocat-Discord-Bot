@@ -4,7 +4,7 @@
 <p>To use the bot, you will have to invite it to your server. Please continue reading for more details.
 
 ## How to invite the bot
-<p>Simply click <a href="https://discordapp.com/oauth2/authorize?client_id=292036421341020161&scope=bot&permissions=104062017">this link</a>, and the bot will automatically join your server. During the authorization process, the application will ask you to grant them certain permissions. None of these permissions are essential (apart from the one allowing them to read and send messages), however each of them enhances your experience as a user. <b>The bot does need any administrator privileges</b>.</p>
+<p>Simply click <a href="https://discordapp.com/oauth2/authorize?client_id=292036421341020161&scope=bot&permissions=104062017">this link</a>, and the bot will automatically join your server. During the authorization process, the application will ask you to grant them certain permissions. None of these permissions are essential (apart from the one allowing them to read and send messages), however each of them enhances your experience as a user. <b>The bot does not need any administrator privileges</b>.</p>
 
 ## How to run the bot on my own computer or webserver
 <p>No problem! However, it will be a little more difficult as it requires additional steps to be taken. Fortunately, this guide will explain all of those steps:</p>
