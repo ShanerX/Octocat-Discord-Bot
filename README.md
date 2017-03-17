@@ -26,5 +26,7 @@
   <ul>
   <li>This project uses the <a href="https://www.github.com/DV8FromTheWorld/JDA">JDA (Java Discord API) library</a>, an extensive API written in Java. You may find the latest version <a href="http://home.dv8tion.com:8080/job/JDA/">here</a> adn the javadocs <a href="http://home.dv8tion.net:8080/job/JDA/javadoc/">here</a>. There also is a public support discord server, with an <a href="https://discord.gg/0hMr4ce0tIl3SLv5">instant invite</a>.</li>
   <li>The Bot also uses the <a href="https://github.com/fangyidong/json-simple">Json-Simple</a> library, which can be downloaded <a href="https://code.google.com/archive/p/json-simple/">here</a>.</li>
-  <li>Finally, there is a third dependency, the
+  <li>Finally, there is a third dependency, the <a href="http://github-api.kohsuke.org/">GitHub API for Java</a>. All the Maven builds, source and javadocs are on its website.</li>
   </ul>
+  
+  ## Features
