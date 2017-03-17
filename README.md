@@ -20,3 +20,9 @@
   <li>If you have done everything correctly, you may go back to your Discord App page, and copy the "Client ID", at the top (Not the "Client Secret!") Now, open a new tab and insert <a href="https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=104062017">the invite link</a>, replacing <i>CLIENT_ID</i> with your actual Client ID. After selecting your Discord Server and Clicking on <b>Authorize</b>, feel free to close all the open tabs in your browser and get back to the Discord Client. If you now look at the online members, you should see the Bot among them, with the username you specified when creating the Discord Application.</li>
   </ol>
   <p><i>Enjoy!</i></p>
+  
+  ## I am a Developer and wish to fork the project
+  <p>We are always happy to hear that other developers are willing to continue our work! Spend a minute, however, on reading about which dependencies you need:</p>
+  <ul>
+  <li>This project uses the <a href="https://www.github.com/DV8FromTheWorld/JDA">JDA (Java Discord API) library</a>, an extensive API written in Java. You may find the latest version <a href="http://home.dv8tion.com:8080/job/JDA/">here</a> adn the javadocs <a href="http://home.dv8tion.net:8080/job/JDA/javadoc/">here</a>. There also is a public support discord server, with an <a href="https://discord.gg/0hMr4ce0tIl3SLv5">instant invite</a>.</li>
+  </ul>
