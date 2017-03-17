@@ -2,9 +2,9 @@
 ## Introduction
 <p>Octocat is a Discord Bot written in Java with the (JDA (Java Discord API) library)[https://www.github.com/DV8FromTheWorld/JDA]. The purpose of the bot is to create a bridge that connects a Discord Guild (or, simply, a Discord User) with a GitHub Account. The user will be able to create new repositories, manage and delete existing ones, add collaborators, submit pull requests and commit on their branches as well as managing their organizations and team members. All these actions are possible with simple and intuitive "discord-commands" and require an authentication (Both username-password as well as OAuth-tokens are supported).</p>
 <p>To use the bot, you will have to invite it to your server. Please continue reading for more details.
-### I want to invite the bot
+<p>### I want to invite the bot</p>
 <p>Okay, simply click (this link)[https://discordapp.com/oauth2/authorize?client_id=292036421341020161&scope=bot&permissions=104062017], adn the bot will automatically join your server. During the authorization process, the application will ask you to grant them certain permissions. None of these permissions are essential (apart from the one allowing them to read and send messages), however each of them enhances your experience as a user. <b>The bot does need any administrator privileges</b>.</p>
-###I want to run the bot on my own computer or webserver
+### I want to run the bot on my own computer or webserver
 <p>No problem! However, it will be a little more difficult as it requires additional steps to be taken. Fortunately, this guide will explain all of those steps:</p>
 <ol>
 <li>Head over to the (releases page)[https://github.com/ShanerX/Octocat-Discord-Bot/releases] and download the most recent file.</li>
