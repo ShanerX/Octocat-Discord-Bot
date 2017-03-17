@@ -7,7 +7,7 @@
 <p>Simply click <a href="https://discordapp.com/oauth2/authorize?client_id=292036421341020161&scope=bot&permissions=104062017">this link</a>, and the bot will automatically join your server. During the authorization process, the application will ask you to grant them certain permissions. None of these permissions are essential (apart from the one allowing them to read and send messages), however each of them enhances your experience as a user. <b>The bot does not need any administrator privileges</b>.</p>
 
 ## How to run the bot on my own computer or webserver
-<p>No problem! However, it will be a little more difficult as it requires additional steps to be taken. Fortunately, this guide will explain all of those steps:</p>
+<p>If you wish to run the Bot on your own computer or webserver and enjoy directly controlling the bot, so be it! However, it will be a little more difficult as it requires additional steps to be taken. Fortunately, this guide will explain all of those steps in an simple and <i>newbie-friendly</i> way:</p>
 <ol>
 <li>Head over to the <a href="https://github.com/ShanerX/Octocat-Discord-Bot/releases">releases page</a> and download the most recent file.</li>
 <li>Place the file in the directory you wish to run it in and, inside that directory, run the command: <code>java -jar GitHubBot.jar</code> (Please notice that if you rename the file, you will need to adapt the name inside the command. If you want, you can create a <code>.bat</code> file on windows or a <code>.sh</code> file on OSX/Linux and write the command inside, so that you only need to double-click / run that file for the bot to start.</li>
