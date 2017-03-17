@@ -12,11 +12,11 @@
 <li>Head over to the [releases page](https://github.com/ShanerX/Octocat-Discord-Bot/releases) and download the most recent file.</li>
 <li>Place the file in the directory you wish to run it in and, inside that directory, run the command: ``java -jar GitHubBot.jar`` (Please notice that if you rename the file, you will need to adapt the name inside the command. If you want, you can create a ``.bat`` file on windows or a ``.sh`` file on OSX/Linux and write the command inside, so that you only need to double-click / run that file for the bot to start.</li>
 <li>Once it is booted up for the first time, the bot will create a file called ``config.json``. This file should look like this:
-<code>{
+<p>```{
 <p>  "Access_Token": "INSERT_TOKEN",
 <p>  "Game": "GitHub Developer API",
 <p>  "Client_ID": "INSERT_ID",
 <p>  "Command_Prefix": "/",
 <p>  "Bot_Name": "Octocat"
-<p>  }</code></li>
+<p>  }```</li>
   <li>Next, head over to the [Discord Applications page](https://discordapp.com/developers/applications/me) and register a new application, like so:
