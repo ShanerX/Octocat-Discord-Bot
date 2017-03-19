@@ -28,6 +28,6 @@
   <li>The Bot also uses the <a href="https://github.com/fangyidong/json-simple">Json-Simple</a> library, which can be downloaded <a href="https://code.google.com/archive/p/json-simple/">here</a>.</li>
   <li>Finally, there is a third dependency, the <a href="http://github-api.kohsuke.org/">GitHub API for Java</a>. All the Maven builds, source and javadocs are on its website.</li>
   </ul>
-  <p>If you have added stuff to the bot or fixed bugs, you may submit a pull-request and merge your fork with the original project. You will retain copyright over all your code. If, however, you decide to re-distribute the Bot on your own, make sure you read and follow the <a href="https://www.github.com/ShanerX/Octocat-Discord-Bot/blob/master/LICENSE.md">License</a>.</p>
+  <p>Once you got all the dependencies, you may download the source from this repository or fork it to your own GitHub account. If you add stuff to it or fix any bugs or issues, you may submit a pull-request and merge your fork with the original project. You will retain copyright over all your code. If, however, you decide to re-distribute the Bot on your own, make sure you read and follow the <a href="https://www.github.com/ShanerX/Octocat-Discord-Bot/blob/master/LICENSE.md">License</a>.</p>
   
   ## Features
