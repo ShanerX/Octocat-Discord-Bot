@@ -19,7 +19,7 @@
   <p>  <code>[21:49:06] [Info] [JDA]: Finished Loading!</code></p>
   <li>If you have done everything correctly, you may go back to your Discord App page, and copy the "Client ID", at the top (Not the "Client Secret!") Now, open a new tab and insert <a href="https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=104062017">the invite link</a>, replacing <i>CLIENT_ID</i> with your actual Client ID. After selecting your Discord Server and Clicking on <b>Authorize</b>, feel free to close all the open tabs in your browser and get back to the Discord Client. If you now look at the online members, you should see the Bot among them, with the username you specified when creating the Discord Application and the game configured in the <code>config.json</code>. (Every time you modify a setting, you will need to restart the bot for the changes to be applied.</li>
   </ol>
-  <p><i>Enjoy!</i></p>
+> <i>Enjoy!</i>
   
   ## I am a Developer and wish to fork the project
   <p>Excellent, We are always happy to hear that other developers are willing to continue our work! Spend a minute, however, on reading about which dependencies you need:</p>
