@@ -1,0 +1,7 @@
+{
+  "Access_Token": "INSERT_TOKEN",
+  "Game": "GitHub Developer API",
+  "Client_ID": "INSERT_ID",
+  "Command_Prefix": "/",
+  "Bot_Name": "Octocat"
+}
