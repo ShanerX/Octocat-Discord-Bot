@@ -1,5 +1,14 @@
 package org.shanerx.discord.github;
 
+import net.dv8tion.jda.core.AccountType;
+import net.dv8tion.jda.core.JDA;
+import net.dv8tion.jda.core.JDABuilder;
+import net.dv8tion.jda.core.entities.Game;
+import net.dv8tion.jda.core.entities.User;
+import net.dv8tion.jda.core.exceptions.RateLimitedException;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
 import org.shanerx.discord.github.commands.MessageReceived;
 import org.shanerx.discord.github.commands.PrivateMessageReceived;
 
@@ -10,6 +19,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
+import java.util.Map;
 
 public class GitHubBot {
 
@@ -52,14 +62,10 @@ public class GitHubBot {
 		
 		try {
 			obj = (JSONObject) parser.parse(new FileReader(config));
-		} catch (FileNotFoundException e1) {
-			e1.printStackTrace();
-		} catch (IOException e1) {
-			e1.printStackTrace();
-		} catch (ParseException e1) {
+		} catch (IOException | ParseException e1) {
 			e1.printStackTrace();
 		}
-		
+
 		final String TOKEN = (String) obj.get("Access_Token");
 		botName = (String) obj.get("Bot_Name");
 		
@@ -76,11 +82,7 @@ public class GitHubBot {
 			jda = jb.buildAsync();
 			jda.addEventListener(new PrivateMessageReceived(bot));
 			jda.addEventListener(new MessageReceived(bot));
-		} catch (LoginException e) {
-			e.printStackTrace();
-		} catch (IllegalArgumentException e) {
-			e.printStackTrace();
-		} catch (RateLimitedException e) {
+		} catch (LoginException | IllegalArgumentException | RateLimitedException e) {
 			e.printStackTrace();
 		}
 	}

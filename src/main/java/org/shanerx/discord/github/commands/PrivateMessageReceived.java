@@ -23,7 +23,7 @@ public class PrivateMessageReceived extends ListenerAdapter {
 	@Override
 	public void onPrivateMessageReceived(PrivateMessageReceivedEvent event) {
 		PrivateChannel dm = event.getChannel();
-		String msg = event.getMessage().getContent();
+		String msg = event.getMessage().getContentDisplay();
 		User author = event.getAuthor();
 		
 		if (!msg.startsWith(bot.prefix)) {
@@ -46,7 +46,7 @@ public class PrivateMessageReceived extends ListenerAdapter {
 				return;
 			}
 			
-			GitHub github = null;
+			GitHub github;
 			if (args.length == 3) {
 				
 				try {
@@ -81,7 +81,6 @@ public class PrivateMessageReceived extends ListenerAdapter {
 					dm.sendMessage(BotData.LOGIN_SUCCESS.replace("NAME", github.getMyself().getName()).replace("PREFIX", bot.prefix)).queue();
 				} catch (IOException e) {
 					dm.sendMessage(BotData.LOGIN_ERROR_USER_PASS).queue();
-					return;
 				}
 			}
 		}
@@ -95,7 +94,6 @@ public class PrivateMessageReceived extends ListenerAdapter {
 			
 			bot.users.remove(author);
 			dm.sendMessage(BotData.LOGOUT).queue();
-			return;
 		}
 	}
 }

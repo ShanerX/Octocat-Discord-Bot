@@ -2,8 +2,6 @@ package org.shanerx.discord.github.resources;
 
 import java.awt.Color;
 import java.io.IOException;
-import java.time.temporal.TemporalAccessor;
-import java.time.temporal.TemporalField;
 import java.util.Date;
 import java.util.List;
 import java.util.Set;
@@ -13,8 +11,8 @@ import org.shanerx.discord.github.GitHubBot;
 
 import net.dv8tion.jda.core.EmbedBuilder;
 
+@SuppressWarnings("unused")
 public class BotUtils {
-	
 	
 	public static String setToString(Set<String> set) {
 		StringBuilder sb = new StringBuilder();
