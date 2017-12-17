@@ -1,36 +1,24 @@
 package org.shanerx.discord.github;
 
+import org.shanerx.discord.github.commands.MessageReceived;
+import org.shanerx.discord.github.commands.PrivateMessageReceived;
+
+import javax.security.auth.login.LoginException;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.HashMap;
-import java.util.Map;
-
-import javax.security.auth.login.LoginException;
-
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
-import org.shanerx.discord.github.commands.MessageReceived;
-import org.shanerx.discord.github.commands.PrivateMessageReceived;
-
-import net.dv8tion.jda.core.AccountType;
-import net.dv8tion.jda.core.JDA;
-import net.dv8tion.jda.core.JDABuilder;
-import net.dv8tion.jda.core.entities.Game;
-import net.dv8tion.jda.core.entities.User;
-import net.dv8tion.jda.core.exceptions.RateLimitedException;
 
 public class GitHubBot {
-	
+
 	public Map<User, GitHubAccount> users;
 	public String prefix;
 	
 	private static GitHubBot instance;
 	private static String botName;
-	
+
 	private GitHubBot() {
 		users = new HashMap<>();
 		instance = this;
