@@ -58,7 +58,4 @@ public class BotUtils {
 		.setFooter("Sent by " + GitHubBot.getInstance().getBotName() + " on " + new Date().toGMTString(), "https://www.github.com/ShanerX/Octocat-Discord-Bot");
 		return eb;
 	}
-	
-	
-
 }

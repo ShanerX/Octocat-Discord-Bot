@@ -40,5 +40,4 @@ public class GitHubAccount {
 	public AuthenticationType getAuthType() {
 		return authType;
 	}
-
 }

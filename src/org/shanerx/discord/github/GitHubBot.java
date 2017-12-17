@@ -105,7 +105,5 @@ public class GitHubBot {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		
 	}
-
 }

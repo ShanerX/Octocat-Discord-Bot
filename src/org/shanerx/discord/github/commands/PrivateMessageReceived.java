@@ -98,5 +98,4 @@ public class PrivateMessageReceived extends ListenerAdapter {
 			return;
 		}
 	}
-
 }

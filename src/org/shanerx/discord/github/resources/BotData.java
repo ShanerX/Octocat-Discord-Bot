@@ -14,5 +14,4 @@ public class BotData {
 	public static final String NOT_LOGGED_IN_ERROR = "Sorry, but you must be logged in to perform this action. Use ``PREFIXgithub login`` for more information.";
 
 	public static final String PRIVATE_ONLY = "Sorry, but due to security reasons you may only perform this action in a Direct Message";
-	
 }

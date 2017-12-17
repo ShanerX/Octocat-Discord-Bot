@@ -462,20 +462,11 @@ public class MessageReceived extends ListenerAdapter {
 					text.sendMessage("``" + github.getMyself().getLogin() + "/" + repoName + "`` does not have a file called ``README.md``!").queue();
 				}
 			}
-			
-			
-			
-			
-			
-			
-			
-			
+
 		} catch (IOException e) {
 			text.sendMessage(BotData.GENERIC_ERROR.replace("PREFIX", bot.prefix)).queue();
 			e.printStackTrace();
 			return;
 		}
-
 	}
-
 }
